@@ -15,6 +15,8 @@ namespace PortfolioBuilder.Models
 
         public string LongName { get; set; }
 
+        public string Description { get; set; }
+
         /// <summary>
         /// Documentation, Guides, etc.
         /// </summary>

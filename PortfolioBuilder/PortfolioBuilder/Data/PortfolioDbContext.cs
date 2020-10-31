@@ -10,6 +10,7 @@ namespace PortfolioBuilder.Data
 {
     public class PortfolioDbContext : DbContext
     {
+        public DbSet<Domain> Domains { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Subcategory> Subcategories { get; set; }
         public DbSet<Skill> Skills { get; set; }

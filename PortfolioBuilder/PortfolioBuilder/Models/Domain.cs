@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PortfolioBuilder.Models
 {
-    public class Category
+    public class Domain
     {
         [Key]
         public string Id { get; set; }
@@ -15,6 +15,6 @@ namespace PortfolioBuilder.Models
 
         public string Description { get; set; }
 
-        public List<Subcategory> Subcategories { get; set; }
+        public List<Category> Categories { get; set; }
     }
 }
